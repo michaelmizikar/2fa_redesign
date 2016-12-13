@@ -1,6 +1,6 @@
 {
   "name": "Michael Mizikar",
   "tagline": "Portfolio ",
-  "body": "## About Me\r\nA junior Computer Engineering student with minors in Computer Science and Cybersecurity at the University of Delaware.\r\nProficient with multiple programming languages and experienced working on Windows/Linux based systems. \r\n\r\n## Projects\r\n####Polynomial Calculator \r\n####Command Line Email Database\r\n####Command Line Minesweeper\r\n####Markov Tweet Generator \r\n\r\n## Contact\r\n<mmizikar@udel.edu>\r\n(302)-562-8479\r\n\r\n\r\n",
+  "body": "## About Me\r\nA junior Computer Engineering student with minors in Computer Science and Cybersecurity at the University of Delaware.\r\nProficient with multiple programming languages and experienced working on Windows/Linux based systems. \r\n\r\n## Projects\r\n####Polynomial Calculator \r\n<https://github.com/michaelmizikar/PolynomialCalc>\r\n####Command Line Email Database\r\n<https://github.com/michaelmizikar/GeeMail>\r\n####Command Line Minesweeper\r\n<https://github.com/michaelmizikar/Minesweeper>\r\n####Markov Tweet Generator \r\n<https://github.com/michaelmizikar/MarkovTweets>\r\n\r\n## Contact\r\n<mmizikar@udel.edu>\r\n(302)-562-8479\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
