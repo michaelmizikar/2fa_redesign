@@ -1,74 +1,332 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Michael Mizikar by michaelmizikar</title>
+<!-- begin /it/include/leadin.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="last-modified" content="">
+    <link href="https://www1.udel.edu/it/include/img/ud.ico" rel="icon" type="image/x-icon">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Michael Mizikar</h1>
-        <p>Portfolio </p>
+    <!-- one stylesheet - includes UD header, footer, and Bootstrap http://getbootstrap.com/css/ -->
+    <link href="../../include/css/itcg.css" rel="stylesheet" type="text/css">
 
-        <p class="view"><a href="https://github.com/michaelmizikar/main">View the Project on GitHub <small>michaelmizikar/main</small></a></p>
+    <!-- add jQuery library https://jquery.com/ -->
+    <script src="../../include/js/jquery-1.12.4.min.js"></script>
 
+    <!-- fix a FireFox bug with printing fieldsets -->
+    <script src="../../include/js/ff-print.js"></script>
 
-        <ul>
-          <li><a href="https://github.com/michaelmizikar/main/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/michaelmizikar/main/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/michaelmizikar/main">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>
-<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Me</h2>
+    <!-- add Bootstrap js functions http://getbootstrap.com/javascript/ -->
+    <script src="../../include/js/bootstrap.min.js"></script>
 
-<p>A junior Computer Engineering student with minors in Computer Science and Cybersecurity at the University of Delaware.
-Proficient with multiple programming languages and experienced working on Windows/Linux based systems. </p>
+    <script>
+        $(function() {
+            //init Bootstrap tooltips
+            $('body').tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+    </script>
+<!-- end /it/include/leadin.html -->
 
-<h2>
-<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects</h2>
+    <title>2FA Quickstart</title>
+<!-- begin /it/include/header.html -->
+</head>
+<body class="itcg">
 
-<h4>
-<a id="polynomial-calculator" class="anchor" href="#polynomial-calculator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Polynomial Calculator</h4>
+<!-- start UD banner -->
+    <header id="udHeader">
+        <div id="udHeader-container">
+            <div id="udHeader-logo-udel" class="container">
+                <a href="http://www.udel.edu">
+                    <img src="../../include/img/logo-udel.png" alt="University of Delaware">
+                </a>
+            </div>
+        </div>
+    </header>
 
-<p><a href="https://github.com/michaelmizikar/PolynomialCalc">https://github.com/michaelmizikar/PolynomialCalc</a></p>
+    <div class="navbar navbar-default navbar-static-top" id="itcg-nav-container" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#js-itwd-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="js-itwd-menu">
+                <ul class="nav navbar-nav navbar-right">
 
-<h4>
-<a id="command-line-email-database" class="anchor" href="#command-line-email-database" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Line Email Database</h4>
+<!-- Add or edit links for the gray bar in the header -->
+                    <li><a href="http://www.it.udel.edu/">IT Home</a></li>
+                    <li><a href="http://sites.udel.edu/it-news">News</a></li>
+                    <li><a href="http://www.it.udel.edu/help">IT Help</a></li>
+<!-- end header links -->
 
-<p><a href="https://github.com/michaelmizikar/GeeMail">https://github.com/michaelmizikar/GeeMail</a></p>
-
-<h4>
-<a id="command-line-minesweeper" class="anchor" href="#command-line-minesweeper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Line Minesweeper</h4>
-
-<p><a href="https://github.com/michaelmizikar/Minesweeper">https://github.com/michaelmizikar/Minesweeper</a></p>
-
-<h4>
-<a id="markov-tweet-generator" class="anchor" href="#markov-tweet-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Markov Tweet Generator</h4>
-
-<p><a href="https://github.com/michaelmizikar/MarkovTweets">https://github.com/michaelmizikar/MarkovTweets</a></p>
-
-<h2>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
-
-<p><a href="mailto:mmizikar@udel.edu">mmizikar@udel.edu</a>
-(302)-562-8479</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/michaelmizikar">michaelmizikar</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+                </ul>
+            </div>
+        </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+<!-- end UD banner -->
+
+<!-- start 2 column page content -->
+  <div class="container" id="itcg-content">
+    <div class="row">
+        <div class="col-md-8 col-lg-9"> <!-- start main content column -->
+
+<!-- end /it/include/header.html -->
+
+    <h1>Quickstart: Protect your University account with 2FA.</h1>
+    <p>Google Authenticator is the recommended method of generating your
+      2FA code. If you do not have a smartphone or tablet, you can use
+      other methods of receiving or creating your 2FA code.
+(<a href="index.html">More information</a>)</p>
+<hr>
+<p><em>Download a <a href="2faonepage.pdf">print-friendly PDF
+copy</a></em>.
+    <hr><h2>Prepare your device</h2>
+    <ol>
+      <p>
+      <li>Go to the app store for your Android or iOS device. Download
+        and install the Google Authenticator app. </li></p>
+      <p><li>A QR code scanner is required to set up Google Authenticator.
+      </li>
+      <ul>
+        <li>Apple iOS devices have a native QR code scanner. </li>
+        <li>If you are using an Android device, go to the Google Play
+          Store. Download and install a QR code reader. </li>
+      </ul></p>
+    </ol>
+    <hr><h2>Register for 2FA</h2>
+      Make sure you have your smartphone or tablet with you as
+      you follow the next steps.
+    <ol>
+      <p><li>Use a computer connected to the internet to go to <strong><a
+          href="http://www1.udel.edu/myudsettings/twofactor"
+target="_blank">My UD Settings</a></strong>.
+      </li></p>
+      <p><li>On the Register for two-factor authentication page, select <strong>Google
+          Authenticator app</strong> as the primary method under the <strong>Method
+
+
+          for receiving authentication code</strong> section.</li></p>
+      <p><li>Select <strong>Scan a QR Code </strong>as the<strong>
+          configuration method</strong>. A QR code will appear below.</li>
+      <p><li>Use the QR scanning app on your smartphone or tablet to scan
+        the QR code. Follow the directions at the <a
+          href="googauth.html" target="_blank">Google Authenticator
+help page</a>
+        to finish the configuration.</li></p>
+      <p><li>In addition to selecting a primary method for
+generating or receiving your 2FA code, you are required
+to provide backup communication methods for receiving a 2FA
+code. This information is only used if your primary communication
+method is not
+available.
+        </li></p>
+      <p><li>Go to the <strong>Scratch codes</strong> section. 
+        Print the 10 one-time use 2FA codes to use in an
+        emergency or if you are traveling internationally. 
+        </li></p>
+      <p><li>At the bottom of the page, click <strong>Finish &amp; submit</strong>.</li>
+    </ol>
+    <hr><h2>Other tips</h2>
+    <ul>
+      <p><li>If you are traveling or otherwise have limited internet
+        access, you can still use Google Authenticator since the app
+        works without internet access.</li></p>
+<p><li>2FA codes are time-dependent. When selecting
+backup communication methods, choose ones that you or a trusted
+person can access within five minutes. </li></p>
+<p>
+<li>Scratch codes are for emergency use when you
+cannot access 2FA codes through other means. Scratch codes will
+not expire, but each code can be used only one time.
+Using codes from top to bottom and striking through used codes will avoid causing confusion. </li></p>
+
+<p>
+<li>Changing your 2FA settings will generate
+a notice sent to your UD email address.</li></p>
+
+      <p><li>Not sure if you are enrolled in 2FA? Log in to <strong>My UD
+          Settings</strong>. Your 2FA status is listed under <strong>My
+          account information</strong>.</li></p>
+      <p><li>2FA is required for certain UD services for faculty
+and employees and for Student Financial
+        forms. It will be required for all students by Jan. 3, 2018.</li>
+      </p>
+    </ul>
+<!-- begin /it/include/contentfooter.html -->
+		<div class="itcg-page-footer">
+			<p><em>If you require further assistance with the instructions or information on this page, contact the <a href="https://www1.udel.edu/it/help/request" target="_blank">IT Support Center<span class="sr-only"> Link opens in a new window</span></a>.</em></p>
+		</div>
+	</div> <!-- end main content column -->
+	<div class="col-md-4 col-lg-3"> <!-- start quicklinks column -->
+<!-- end /it/include/contentfooter.html -->
+
+
+<p><!-- begin quicklinks.html -->
+
+    <div class="quicklinks" id="sidebar">
+      <h4 class="quicklinks-title">Quick Links</h4>
+<!-- Note that you can have multiple "groups of quicklinks" and that you can nest additional UL lists to show submenus. -->
+      <ul class="quicklinks-group">
+<li><a href="qs2.html">One-page 2FA quickstart guide</a></li>
+<li><a href="index.html">Getting started with 2FA</a>
+<ul>
+<li><a href="main.html">2FA Overview</a></li>
+<li><a href="googauth.html">Using Google Authenticator with UD
+2FA</a></li></ul>
+</li>
+</ul>
+      <ul class="quicklinks-group">
+      <li><a href="https://www.udel.edu/it/help/connecting/">Connecting to the UD Network</a>
+<ul><li><a
+href="https://www1.udel.edu/it/help/connecting/vpn/index.html">UD VPN
+service</a></li>
+<li><a
+href="https://www1.udel.edu/it/help/connecting/vpn/usage2fanoga.html"
+target="_blank">Acquiring a 2FA code for VPN without Google
+Authenticator</a></li></ul></li></ul>
+<!-- <ul class="quicklinks-group">
+      <li><a href="https://udcapture.udel.edu/misc/it-css/Security/?t=0335f73cbfd6b54565e911e699f7debe">Video Introduction to 2FA</a>
+</li></ul>
+ -->
+      <ul class="quicklinks-group">
+
+        <li><a href="https://www1.udel.edu/it/help/request/">IT Support Center</a></li>
+      </ul>
+    </div>
+
+<!-- end quicklinks.html -->
+
+<!-- begin /it/include/pagefooter.html -->
+
+<!-- start Google search for the IT site -->
+<div class="itcg-search-container">
+  <h4 class="itcg-search-title">Search IT Help</h4>
+    <div class="itcg-search-group">
+        <div class="itcg-search">
+
+<div id='cse' style='width: 100%;'>Loading</div>
+<script src='https://www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  customSearchOptions['overlayResults'] = true;
+  var customSearchControl =   new google.search.CustomSearchControl('010641495160779642579:zufcnobmrzg', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse', options);
+}, true);
+</script>
+
+
+      </div>
+  </div>
+</div>
+<!-- end IT search -->
+
+<!-- start My UD Business logo -->
+<div class="itcg-myud-container text-center" style="background-color: #002663; margin-top: 10px; padding: 20px 0;">
+    <div class="itcg-myud">
+      <a href="https://udel.onecampus.com/?utm_source=helppage&utm_medium=cta&utm_campaign=myudbhelppage">
+        <img src="../../include/img/MyUDbusinessLogo-online.png" alt="My UD Business">
+        <div style="color:#fff; padding-top: 10px;">Search for forms &amp; applications.</div>
+      </a>
+  </div>
+</div>
+<!-- end My UD Business logo -->
+
+            </div> <!-- end quicklinks column -->
+        </div> <!-- end row -->
+    </div> <!-- end 2 column page content -->
+
+<!-- start IT footer -->
+<footer id="udFooter">
+  <div class="udFooter-container">
+    <div class="udFooterHeader">
+      <div class="udLogo_footer">        
+        <a href="http://www.udel.edu"><img src="../../include/img/circle-ud.png" alt="University of Delaware"></a>
+      </div>
+      <span><img src="../../include/img/ud-logo-tag.png" alt="Dare to be First"></span>
+      <ul>
+        <li class="udFooterSocial-icons">
+          <ul>
+            <li><a href="https://twitter.com/UDelaware" title="Twitter" target="_blank"><img title="Twitter" src="../../include/img/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.facebook.com/udelaware" title="Facebook" target="_blank"><img title="Facebook" src="../../include/img/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/udelaware" title="Instagram" target="_blank"><img title="Instagram" src="../../include/img/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.youtube.com/univdelaware" title="Youtube" target="_blank"><img title="Youtube" src="../../include/img/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://www.pinterest.com/udelaware/" title="Pinterest" target="_blank"><img title="Pinterest" src="../../include/img/pininterest.png" alt="Pinterest"></a></li>
+            <li><a href="https://www.linkedin.com/edu/school?id=18070" title="Linkedin" target="_blank"><img title="Linkedin" src="../../include/img/linkedin.png" alt="Linkedin"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="udFooterLinks">
+    <div class="container-fluid">
+      <div class="link-item">&copy;2016 University of Delaware</div>
+      <div class="link-item text-nowrap">
+      <div class="link-item"><a href="http://www.udel.edu/home/comments.html">Comments</a></div>
+      <div class="link-item"><a href="http://www.udel.edu/home/legal-notices.html">Legal Notices</a></div>
+    </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+	(function() {
+	var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+	sz.src = '//siteimproveanalytics.com/js/siteanalyze_6110916.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+	})();
+	/*]]>*/
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+    Date();a=s.createElement(o),
+
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-11324498-2', 'udel.edu'); <!--IT GA CODE -->
+ga('create', 'UA-5091792-2', 'udel.edu', {'name':
+    'newTracker'}); <!--UDs UNIVERSAL CODE -->
+ga('send', 'pageview');
+ga('newTracker.send', 'pageview');
+
+</script>
+<!-- Date last modified -->
+<script>
+    $(function() {
+        var d = new Date(document.lastModified),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        var date_last_changed = [year, month, day].join('-');
+
+        $('meta[name="last-modified"]').attr('content',
+date_last_changed);
+    });
+</script>
+<!-- END date last modified -->
+
+</body>
 </html>
